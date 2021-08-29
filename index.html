@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <title>SWork Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+        </div>
+        <a class="navbar-brand" href="#"> SWork <span><img id="logo" src="graphlogo.png"></span></a>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+          </ul>
+        </div>
+    </nav>
+</body>
+
+<body background="background.jpg">
+<center>
+  <h1 class="btn btn-info" id="h1">Realtime Identification App 
+    <p id="p">Fam Edition</p>
+  </h1>
+
+  <br>
+  <br>
+  <br>
+
+  <p class="btn btn-warning result_para_tag" id="name_button"> Member: 
+    <span id="result_mname"></span>
+  </p>
+  <br><br>
+  <p class="btn btn-warning result_para_tag" id="acc_button"> Accuracy: 
+    <span id="result_acc"></span>
+  </p>
+
+</center>
+  <br>
+
+  <span id="row2">
+        <h2>List of the Fam</h2>
+        <h5>Mannat Cheema</h5>
+        <h5>Guneet Cheema</h5>
+        <h5>Pradeep Cheema</h5>
+        <h5>Barjinder Cheema</h5>
+        <h5>Manjit Cheema</h5>
+        <h5>Jasbir Cheema</h5>
+  </span>
+
+  <div class="copy_right_footer">
+    Developed by - Mannat Cheema
+  </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
